@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.33927.289
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polytech.DAL", "Polytech.DAL\Polytech.DAL.csproj", "{31A38785-FDB2-448F-B0B6-446E3DFC149F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polytech.Online.View", "Polytech.Online.View\Polytech.Online.View.csproj", "{F5CF6557-27A6-417C-AC62-6D99523A8CB1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{31A38785-FDB2-448F-B0B6-446E3DFC149F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31A38785-FDB2-448F-B0B6-446E3DFC149F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31A38785-FDB2-448F-B0B6-446E3DFC149F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31A38785-FDB2-448F-B0B6-446E3DFC149F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5CF6557-27A6-417C-AC62-6D99523A8CB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5CF6557-27A6-417C-AC62-6D99523A8CB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5CF6557-27A6-417C-AC62-6D99523A8CB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5CF6557-27A6-417C-AC62-6D99523A8CB1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1BB3A237-8853-4B44-BA67-5E8CD347A565}
+	EndGlobalSection
+EndGlobal
