@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polytech.DAL", "Polytech.DA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polytech.Online.View", "Polytech.Online.View\Polytech.Online.View.csproj", "{F5CF6557-27A6-417C-AC62-6D99523A8CB1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polytech.BLL", "Polytech.BLL\Polytech.BLL.csproj", "{6DC58817-11E6-43D6-8210-1D36164684F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Polytech.WpfApp", "Polytech.WpfApp\Polytech.WpfApp.csproj", "{AB60A674-70E8-48D8-B283-536C01496D53}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{F5CF6557-27A6-417C-AC62-6D99523A8CB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F5CF6557-27A6-417C-AC62-6D99523A8CB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F5CF6557-27A6-417C-AC62-6D99523A8CB1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DC58817-11E6-43D6-8210-1D36164684F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DC58817-11E6-43D6-8210-1D36164684F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DC58817-11E6-43D6-8210-1D36164684F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DC58817-11E6-43D6-8210-1D36164684F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AB60A674-70E8-48D8-B283-536C01496D53}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AB60A674-70E8-48D8-B283-536C01496D53}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AB60A674-70E8-48D8-B283-536C01496D53}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AB60A674-70E8-48D8-B283-536C01496D53}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

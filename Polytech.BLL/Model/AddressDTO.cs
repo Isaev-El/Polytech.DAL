@@ -5,9 +5,9 @@ using System.Text;
 using System.Threading.Tasks;
 using Polytech.DAL;
 
-namespace Polytech.DAL.Model
+namespace Polytech.BLL.Model
 {
-    public class Address
+    public class AddressDTO
     {
         public int Id { get; set; }
         public DateTime CreateDate { get; set; }

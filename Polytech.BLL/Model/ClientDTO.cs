@@ -4,25 +4,25 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Polytech.DAL.Model
+namespace Polytech.BLL.Model
 {
-    public class Client
+    public class ClientDTO
     {
-        public Client():this(0)
+        public ClientDTO():this(0)
         {
 
         }
-        public Client(int Id):this(Id,DateTime.Now)
+        public ClientDTO(int Id):this(Id,DateTime.Now)
         {
             this.Id = Id;
         }
-        public Client(int Id, DateTime CreateDate)
+        public ClientDTO(int Id, DateTime CreateDate)
             :this(Id,CreateDate,"")
         {
             this.Id = Id;
             this.CreateDate = CreateDate;
         }
-        public Client(int Id,DateTime CreateDate, string PathToImage)
+        public ClientDTO(int Id,DateTime CreateDate, string PathToImage)
         {
             this.Id = Id;
             this.CreateDate = CreateDate;
@@ -66,8 +66,8 @@ namespace Polytech.DAL.Model
             }
         }
         public string PathToImage { get; set; }
-        public Address Address { get; set; }
-        public Account[] Accounts { get; set; }
+        public AddressDTO Address { get; set; }
+        public AccountDTO[] Accounts { get; set; }
     }
 }
 
